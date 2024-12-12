@@ -2,9 +2,28 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
+    "baseUrl": "./",
     "paths": {
       "@/*": [
         "./*"
+      ],
+      "atomic_components_explorax/*": [
+        "./node_modules/atomic_components_explorax/src/*"
+      ],
+      "atomic_components_explorax": [
+        "./node_modules/atomic_components_explorax/index"
+      ],
+      "atomic_components_explorax/atoms": [
+        "./node_modules/atomic_components_explorax/src/atoms/index"
+      ],
+      "atomic_components_explorax/molecules": [
+        "./node_modules/atomic_components_explorax/src/molecules/index"
+      ],
+      "atomic_components_explorax/assets": [
+        "./node_modules/atomic_components_explorax/src/assets"
+      ],
+      "atomic_components_explorax/Organisms": [
+        "./node_modules/atomic_components_explorax/src/Organisms/index"
       ]
     }
   },
